@@ -1,0 +1,54 @@
+{
+  "basecurr": "USD",
+  "batchkey": 1122,
+  "billitems": {
+    "lineitem": [
+      {
+        "accountlabel": "Shamazon",
+        "amount": 100,
+        "billable": false,
+        "glaccountno": 6700,
+        "glaccounttitle": "Payroll Expenses",
+        "offsetglaccountno": "0342",
+        "totalpaid": 0,
+        "trx_amount": 100,
+        "trx_totalpaid": 0
+      }
+    ]
+  },
+  "billno": 123456,
+  "currency": "USD",
+  "customfields": {
+    "billcustomfield": "01/24/2019",
+    "pmx_payment_type": "ACH",
+    "sage_ba_id": 6700
+  },
+  "datecreated": {
+    "day": 24,
+    "month": "01",
+    "year": 2019
+  },
+  "datedue": {
+    "day": 23,
+    "month": "02",
+    "year": 2019
+  },
+  "key": 4553,
+  "payto": {
+    "contactname": "Shamazon(VAPDM1006)"
+  },
+  "returnto": {
+    "contactname": "Shamazon(VAPDM1006)"
+  },
+  "state": "Posted",
+  "totalamount": 100,
+  "totaldue": 100,
+  "totalpaid": 0,
+  "totalselected": 0,
+  "trx_totalamount": 100,
+  "trx_totaldue": 100,
+  "trx_totalpaid": 0,
+  "trx_totalselected": 0,
+  "vendorid": "APDM1006",
+  "whenmodified": "01/24/2019 19:24:51"
+}

@@ -1,0 +1,66 @@
+{
+  "APAccountRef": {
+    "FullName": "Accounts Payable",
+    "ListID": "80000025-1484940209"
+  },
+  "AmountDue": "100.00",
+  "AmountDueInHomeCurrency": "100.00",
+  "CurrencyRef": {
+    "FullName": "US Dollar",
+    "ListID": "80000096-1484939752"
+  },
+  "DueDate": "2019-02-21",
+  "EditSequence": "1548359161",
+  "ExchangeRate": "1",
+  "IsPaid": "true",
+  "ItemLineRet": [
+    {
+      "Amount": "100.00",
+      "BillableStatus": "Billable",
+      "ClassRef": {
+        "FullName": "Class of Invoice",
+        "ListID": "80000001-1504121348"
+      },
+      "Cost": "100",
+      "CustomerRef": {
+        "FullName": "BANK1",
+        "ListID": "80000072-1522874395"
+      },
+      "ItemRef": {
+        "FullName": "Crayons",
+        "ListID": "80000004-1501715435"
+      },
+      "TxnLineID": "73C-1548359161"
+    }
+  ],
+  "LinkedTxn": [
+    {
+      "Amount": "-100.00",
+      "LinkType": "AMTTYPE",
+      "RefNumber": "123456",
+      "TxnDate": "2019-01-22",
+      "TxnID": "73D-1548359399",
+      "TxnType": "BillPaymentCheck"
+    }
+  ],
+  "Memo": "memo for bill",
+  "OpenAmount": "0.00",
+  "RefNumber": "123456",
+  "TermsRef": {
+    "FullName": "Net 30",
+    "ListID": "80000006-1484939755"
+  },
+  "TimeCreated": "2019-01-24T12:46:01-07:00",
+  "TimeModified": "2019-01-24T12:49:59-07:00",
+  "TxnDate": "2019-01-22",
+  "TxnID": "73A-1548359161",
+  "TxnNumber": "507",
+  "VendorAddress": {
+    "Addr1": "Shamazon",
+    "Addr2": "Sheff Sham Shezos"
+  },
+  "VendorRef": {
+    "FullName": "Shamazon",
+    "ListID": "800007EB-1548359083"
+  }
+}

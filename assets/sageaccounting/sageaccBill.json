@@ -1,0 +1,97 @@
+{
+  "$path": "/purchase_invoices/7d1095c6501b494d985e4925cd56c059",
+  "base_currency_net_amount": "100.0",
+  "base_currency_outstanding_amount": "0.0",
+  "base_currency_tax_amount": "0.0",
+  "base_currency_total_amount": "100.0",
+  "contact": {
+    "$path": "/contacts/6897520ad07a4dff893a1a5fbf2e6939",
+    "displayed_as": "Shamazon (987654321)",
+    "id": "6897520ad07a4dff893a1a5fbf2e6939"
+  },
+  "contact_name": "Shamazon",
+  "contact_reference": "987654321",
+  "created_at": "2019-01-24T19:34:42Z",
+  "currency": {
+    "$path": "/currencies/USD",
+    "displayed_as": "US Dollar (USD)",
+    "id": "USD"
+  },
+  "date": "2019-01-24",
+  "displayed_as": "reference field 2",
+  "due_date": "2019-02-23",
+  "editable": true,
+  "exchange_rate": "1.0",
+  "id": "7d1095c6501b494d985e4925cd56c059",
+  "inverse_exchange_rate": "1.0",
+  "invoice_lines": [
+    {
+      "base_currency_net_amount": "100.0",
+      "base_currency_tax_amount": "0.0",
+      "base_currency_tax_breakdown": [],
+      "base_currency_total_amount": "100.0",
+      "base_currency_unit_price": "100.0",
+      "description": "Ice Cold Coors Light",
+      "displayed_as": "Ice Cold Coors Light",
+      "id": "b6170c6014cd4911ba305f956b224948",
+      "is_purchase_for_resale": false,
+      "ledger_account": {
+        "$path": "/ledger_accounts/dadf7de64d1611e695ab0ed51759bcc7",
+        "displayed_as": "Inventory (1200)",
+        "id": "dadf7de64d1611e695ab0ed51759bcc7"
+      },
+      "net_amount": "100.0",
+      "product": {
+        "$path": "/products/bba4e924808c11e8863412a7e3287944",
+        "displayed_as": "Ice Cold Coors Light",
+        "id": "bba4e924808c11e8863412a7e3287944"
+      },
+      "quantity": "1.0",
+      "tax_amount": "0.0",
+      "tax_breakdown": [],
+      "total_amount": "100.0",
+      "trade_of_asset": false,
+      "unit_price": "100.0",
+      "unit_price_includes_tax": false
+    }
+  ],
+  "lastModifiedDate": "2019-01-24T19:35:25Z",
+  "last_paid": "01/24/2019",
+  "links": [
+    {
+      "href": "https://accounting.na.sageone.com/invoicing/purchase_invoices/7d1095c6501b494d985e4925cd56c059",
+      "rel": "alternate",
+      "type": "text/html"
+    }
+  ],
+  "migrated": false,
+  "net_amount": "100.0",
+  "notes": "note in note section",
+  "outstanding_amount": "0.0",
+  "payments_allocations_total_amount": "100.0",
+  "payments_allocations_total_discount": "0.0",
+  "reference": "reference field 2",
+  "status": {
+    "$path": "/artefact_statuses/PAID",
+    "displayed_as": "Paid",
+    "id": "PAID"
+  },
+  "tax_amount": "0.0",
+  "tax_analysis": [],
+  "tax_reconciled": false,
+  "total_amount": "100.0",
+  "total_paid": "100.0",
+  "total_quantity": "1.0",
+  "transaction": {
+    "$path": "/transactions/dacbf24904694a80803305abcde6cc6f",
+    "displayed_as": "reference field 2",
+    "id": "dacbf24904694a80803305abcde6cc6f"
+  },
+  "transaction_type": {
+    "$path": "/transaction_types/PURCHASE_INVOICE",
+    "displayed_as": "Vendor Bill",
+    "id": "PURCHASE_INVOICE"
+  },
+  "updated_at": "2019-01-24T19:35:25Z",
+  "vendor_reference": "123456"
+}

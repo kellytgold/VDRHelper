@@ -1,0 +1,63 @@
+{
+  "apaccountRef": {
+    "name": "20000 Accounts Payable",
+    "value": "68"
+  },
+  "attachableRef": [],
+  "balance": 0,
+  "currencyRef": {
+    "name": "United States Dollar",
+    "value": "USD"
+  },
+  "customField": [],
+  "docNumber": "123456",
+  "domain": "QBO",
+  "dueDate": "2019-02-23T00:00:00Z",
+  "exchangeRate": 1,
+  "homeBalance": 0,
+  "id": "7869|2",
+  "line": [
+    {
+      "accountBasedExpenseLineDetail": {
+        "accountRef": {
+          "name": "1 Advertising/Promotional",
+          "value": "319"
+        },
+        "billableStatus": "NOT_BILLABLE",
+        "taxCodeRef": {
+          "value": "NON"
+        }
+      },
+      "amount": 100,
+      "customField": [],
+      "description": "Description field for line item",
+      "detailType": "ACCOUNT_BASED_EXPENSE_LINE_DETAIL",
+      "id": "1",
+      "lineNum": 1,
+      "linkedTxn": []
+    }
+  ],
+  "linkedTxn": [
+    {
+      "txnId": "7870",
+      "txnType": "BillPaymentCheck"
+    }
+  ],
+  "metaData": {
+    "createTime": "2019-01-24T19:06:15Z",
+    "lastUpdatedTime": "2019-01-24T19:09:10Z"
+  },
+  "privateNote": "memo section on bill",
+  "salesTermRef": {
+    "value": "7"
+  },
+  "sparse": false,
+  "syncToken": "2",
+  "systemId": "7869",
+  "totalAmt": 100,
+  "txnDate": "2019-01-24T00:00:00Z",
+  "vendorRef": {
+    "name": "Shamazon",
+    "value": "3561"
+  }
+}
