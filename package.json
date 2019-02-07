@@ -1,0 +1,19 @@
+{
+  "name": "vdrhelper",
+  "version": "1.0.0",
+  "description": "Resolve duplicate \"values\" and map \"keys\" to create Cloud Elements VDR transformation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellytgold/VDRHelper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellytgold/VDRHelper/issues"
+  },
+  "homepage": "https://github.com/kellytgold/VDRHelper#readme"
+}
